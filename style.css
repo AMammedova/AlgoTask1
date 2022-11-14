@@ -1,0 +1,92 @@
+*{
+    color: white !important;
+}
+
+  .header {
+    background-color: transparent;
+    box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+  }
+  body{
+    background-image: url('https://wallpaperaccess.com/full/250472.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.message{
+    font-size: 30px;
+}
+.container{
+    height: 100vh;
+  }
+  .dec_text{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    background-color:transparent;
+  }
+  
+  .header li a {
+    display: block;
+    padding: 20px 20px;
+    text-decoration: none;
+  }
+  
+  .header li a:hover {
+    background-color: rgb(69, 130, 215,0.5);
+  }
+  
+  .header .logo {
+    display: block;
+    float: left;
+    font-size: 2em;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+  
+    .header li {
+      float: left;
+    }
+    .header li a {
+      padding: 20px 30px;
+    }
+    .header .menu {
+      clear: none;
+      float: right;
+      max-height: none;
+    }
+    .header .menu-icon {
+      display: none;
+    }
+    .menu-bar span{
+     display: none;
+    }
+  
+    .menu .icon {
+        display: none;
+      }
+      @media screen and (max-width: 600px) {
+      
+        .menu li {
+          display: none;
+        }
+           .menu-bar span{
+            display: block;
+            position: absolute;
+            top: 38%;
+            right: 5%;
+            font-size: 1.5em;
+           }
+
+      }
+     
